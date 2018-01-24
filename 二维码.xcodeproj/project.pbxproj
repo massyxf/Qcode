@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		420ED2542011C8B200F3B5DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 420ED2532011C8B200F3B5DE /* AppDelegate.m */; };
+		420ED2572011C8B200F3B5DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 420ED2562011C8B200F3B5DE /* ViewController.m */; };
+		420ED25A2011C8B200F3B5DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420ED2582011C8B200F3B5DE /* Main.storyboard */; };
+		420ED25C2011C8B200F3B5DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420ED25B2011C8B200F3B5DE /* Assets.xcassets */; };
+		420ED25F2011C8B200F3B5DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420ED25D2011C8B200F3B5DE /* LaunchScreen.storyboard */; };
+		420ED2622011C8B200F3B5DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 420ED2612011C8B200F3B5DE /* main.m */; };
+		420ED2692011C8D700F3B5DE /* note in Resources */ = {isa = PBXBuildFile; fileRef = 420ED2682011C8D700F3B5DE /* note */; };
+		420ED26E2011CADB00F3B5DE /* QCodeTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420ED26D2011CADB00F3B5DE /* QCodeTool.swift */; };
+		420ED2702011CCED00F3B5DE /* QCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420ED26F2011CCED00F3B5DE /* QCreateViewController.swift */; };
+		420ED2722011CCFC00F3B5DE /* QScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420ED2712011CCFC00F3B5DE /* QScanViewController.swift */; };
+		420ED2742011CD0A00F3B5DE /* QFindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420ED2732011CD0A00F3B5DE /* QFindViewController.swift */; };
+		420ED2792011CFC400F3B5DE /* QCreateViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420ED2782011CFC400F3B5DE /* QCreateViewController.storyboard */; };
+		420ED27B2011D02000F3B5DE /* QFindViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420ED27A2011D02000F3B5DE /* QFindViewController.storyboard */; };
+		420ED27D2011D03A00F3B5DE /* QScanViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420ED27C2011D03A00F3B5DE /* QScanViewController.storyboard */; };
+		420ED27F2011E0BA00F3B5DE /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 420ED27E2011E0BA00F3B5DE /* 1.png */; };
+		420ED2812011F44000F3B5DE /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 420ED2802011F44000F3B5DE /* 2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		420ED24F2011C8B200F3B5DE /* 二维码.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "二维码.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		420ED2522011C8B200F3B5DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		420ED2532011C8B200F3B5DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		420ED2552011C8B200F3B5DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		420ED2562011C8B200F3B5DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		420ED2592011C8B200F3B5DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		420ED25B2011C8B200F3B5DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		420ED25E2011C8B200F3B5DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		420ED2602011C8B200F3B5DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		420ED2612011C8B200F3B5DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		420ED2682011C8D700F3B5DE /* note */ = {isa = PBXFileReference; lastKnownFileType = text; path = note; sourceTree = "<group>"; };
+		420ED26A2011CAB500F3B5DE /* 二维码-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "二维码-Bridging-Header.h"; sourceTree = "<group>"; };
+		420ED26D2011CADB00F3B5DE /* QCodeTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCodeTool.swift; sourceTree = "<group>"; };
+		420ED26F2011CCED00F3B5DE /* QCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCreateViewController.swift; sourceTree = "<group>"; };
+		420ED2712011CCFC00F3B5DE /* QScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QScanViewController.swift; sourceTree = "<group>"; };
+		420ED2732011CD0A00F3B5DE /* QFindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QFindViewController.swift; sourceTree = "<group>"; };
+		420ED2782011CFC400F3B5DE /* QCreateViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QCreateViewController.storyboard; sourceTree = "<group>"; };
+		420ED27A2011D02000F3B5DE /* QFindViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QFindViewController.storyboard; sourceTree = "<group>"; };
+		420ED27C2011D03A00F3B5DE /* QScanViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QScanViewController.storyboard; sourceTree = "<group>"; };
+		420ED27E2011E0BA00F3B5DE /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		420ED2802011F44000F3B5DE /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		420ED24C2011C8B200F3B5DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		420ED2462011C8B200F3B5DE = {
+			isa = PBXGroup;
+			children = (
+				420ED2512011C8B200F3B5DE /* 二维码 */,
+				420ED2502011C8B200F3B5DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		420ED2502011C8B200F3B5DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				420ED24F2011C8B200F3B5DE /* 二维码.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		420ED2512011C8B200F3B5DE /* 二维码 */ = {
+			isa = PBXGroup;
+			children = (
+				420ED2522011C8B200F3B5DE /* AppDelegate.h */,
+				420ED2532011C8B200F3B5DE /* AppDelegate.m */,
+				420ED2552011C8B200F3B5DE /* ViewController.h */,
+				420ED2562011C8B200F3B5DE /* ViewController.m */,
+				420ED2752011CF1F00F3B5DE /* create */,
+				420ED2762011CF2A00F3B5DE /* find */,
+				420ED2772011CF3200F3B5DE /* scan */,
+				420ED26D2011CADB00F3B5DE /* QCodeTool.swift */,
+				420ED2682011C8D700F3B5DE /* note */,
+				420ED2582011C8B200F3B5DE /* Main.storyboard */,
+				420ED25B2011C8B200F3B5DE /* Assets.xcassets */,
+				420ED25D2011C8B200F3B5DE /* LaunchScreen.storyboard */,
+				420ED2602011C8B200F3B5DE /* Info.plist */,
+				420ED2612011C8B200F3B5DE /* main.m */,
+				420ED26A2011CAB500F3B5DE /* 二维码-Bridging-Header.h */,
+			);
+			path = "二维码";
+			sourceTree = "<group>";
+		};
+		420ED2752011CF1F00F3B5DE /* create */ = {
+			isa = PBXGroup;
+			children = (
+				420ED27E2011E0BA00F3B5DE /* 1.png */,
+				420ED26F2011CCED00F3B5DE /* QCreateViewController.swift */,
+				420ED2782011CFC400F3B5DE /* QCreateViewController.storyboard */,
+			);
+			path = create;
+			sourceTree = "<group>";
+		};
+		420ED2762011CF2A00F3B5DE /* find */ = {
+			isa = PBXGroup;
+			children = (
+				420ED2732011CD0A00F3B5DE /* QFindViewController.swift */,
+				420ED27A2011D02000F3B5DE /* QFindViewController.storyboard */,
+				420ED2802011F44000F3B5DE /* 2.png */,
+			);
+			path = find;
+			sourceTree = "<group>";
+		};
+		420ED2772011CF3200F3B5DE /* scan */ = {
+			isa = PBXGroup;
+			children = (
+				420ED2712011CCFC00F3B5DE /* QScanViewController.swift */,
+				420ED27C2011D03A00F3B5DE /* QScanViewController.storyboard */,
+			);
+			name = scan;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		420ED24E2011C8B200F3B5DE /* 二维码 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 420ED2652011C8B200F3B5DE /* Build configuration list for PBXNativeTarget "二维码" */;
+			buildPhases = (
+				420ED24B2011C8B200F3B5DE /* Sources */,
+				420ED24C2011C8B200F3B5DE /* Frameworks */,
+				420ED24D2011C8B200F3B5DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "二维码";
+			productName = "二维码";
+			productReference = 420ED24F2011C8B200F3B5DE /* 二维码.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		420ED2472011C8B200F3B5DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = k_yan;
+				TargetAttributes = {
+					420ED24E2011C8B200F3B5DE = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 420ED24A2011C8B200F3B5DE /* Build configuration list for PBXProject "二维码" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 420ED2462011C8B200F3B5DE;
+			productRefGroup = 420ED2502011C8B200F3B5DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				420ED24E2011C8B200F3B5DE /* 二维码 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		420ED24D2011C8B200F3B5DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420ED27B2011D02000F3B5DE /* QFindViewController.storyboard in Resources */,
+				420ED27F2011E0BA00F3B5DE /* 1.png in Resources */,
+				420ED25F2011C8B200F3B5DE /* LaunchScreen.storyboard in Resources */,
+				420ED27D2011D03A00F3B5DE /* QScanViewController.storyboard in Resources */,
+				420ED25C2011C8B200F3B5DE /* Assets.xcassets in Resources */,
+				420ED2792011CFC400F3B5DE /* QCreateViewController.storyboard in Resources */,
+				420ED2812011F44000F3B5DE /* 2.png in Resources */,
+				420ED2692011C8D700F3B5DE /* note in Resources */,
+				420ED25A2011C8B200F3B5DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		420ED24B2011C8B200F3B5DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420ED26E2011CADB00F3B5DE /* QCodeTool.swift in Sources */,
+				420ED2572011C8B200F3B5DE /* ViewController.m in Sources */,
+				420ED2742011CD0A00F3B5DE /* QFindViewController.swift in Sources */,
+				420ED2622011C8B200F3B5DE /* main.m in Sources */,
+				420ED2542011C8B200F3B5DE /* AppDelegate.m in Sources */,
+				420ED2702011CCED00F3B5DE /* QCreateViewController.swift in Sources */,
+				420ED2722011CCFC00F3B5DE /* QScanViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		420ED2582011C8B200F3B5DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				420ED2592011C8B200F3B5DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		420ED25D2011C8B200F3B5DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				420ED25E2011C8B200F3B5DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		420ED2632011C8B200F3B5DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		420ED2642011C8B200F3B5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		420ED2662011C8B200F3B5DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLV4GVU8JK;
+				INFOPLIST_FILE = "二维码/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxf.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "二维码/二维码-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		420ED2672011C8B200F3B5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLV4GVU8JK;
+				INFOPLIST_FILE = "二维码/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yxf.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "二维码/二维码-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		420ED24A2011C8B200F3B5DE /* Build configuration list for PBXProject "二维码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420ED2632011C8B200F3B5DE /* Debug */,
+				420ED2642011C8B200F3B5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		420ED2652011C8B200F3B5DE /* Build configuration list for PBXNativeTarget "二维码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420ED2662011C8B200F3B5DE /* Debug */,
+				420ED2672011C8B200F3B5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 420ED2472011C8B200F3B5DE /* Project object */;
+}
